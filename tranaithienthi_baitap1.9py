@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Aug 25 09:15:38 2024
+
+@author: Student
+"""
+import math
+a=float(input("Nhập số thực  a: "))
+b=float(input("Nhập số thực b:"))
+p=((math.sqrt(a)-math.sqrt (b))/(pow(a,1/4)-pow(b,1/4)))-((math.sqrt(a)+pow(a*b,1/4))/(pow(a,1/4)+pow(b,1/4))) 
+print("Kết quả là:", p )

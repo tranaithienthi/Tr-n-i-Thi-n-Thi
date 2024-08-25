@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Aug 25 07:56:46 2024
+
+@author: Student
+"""
+
+a=int(input("Nhập số nguyên a:"))
+b=int(input("Nhập số nguyên b:"))
+
+print("Tổng của a,b là:", a+b)
+print("Hiệu của a,b là:", a-b)
+print("Tích của a,b là:", a*b)
+print("Chia lấy dư của a,b là:", a%b)
+print("Chia lấy nguyên của a,b là:", a//b)
